@@ -145,7 +145,7 @@ const customUrl = Routes.replaceParams('/posts/:postId/comments/:commentId', {
 
 If you're using [Inertia.js](https://inertiajs.com/), you can create a type-safe `Link` component that integrates seamlessly with Routes:
 
-```typescript
+```tsx
 // components/Link.tsx
 import { Link as InertiaLink, InertiaLinkProps } from "@inertiajs/react";
 import React from "react";
@@ -176,7 +176,7 @@ export const Link = <T extends RoutePath>({
 
 **Usage of the Inertia Link component:**
 
-```typescript
+```tsx
 import { Link } from "./components/Link";
 
 // In your component
